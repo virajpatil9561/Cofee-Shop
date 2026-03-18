@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us - Coffee House</title>
+
+    <style>
+        /* Body and overall layout */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #fdf6f0;
+            text-align: center;
+        }
+
+        /* Header */
+        h1 {
+            background-color: #6f4e37;
+            color: white;
+            padding: 15px;
+            margin: 0;
+        }
+
+        /* Navigation bar */
+        nav {
+            background-color: #d2b48c;
+            padding: 10px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #4b2e2e;
+            margin: 0 10px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: white;
+        }
+
+        /* Horizontal line */
+        hr {
+            border: 1px solid #ddd;
+        }
+
+        /* Contact info */
+        p {
+            font-size: 18px;
+            color: #333;
+            margin: 10px 0;
+        }
+
+        h2 {
+            color: #6f4e37;
+            margin-top: 20px;
+        }
+
+        /* Form styling */
+        form {
+            background-color: #fff;
+            display: inline-block;
+            padding: 25px 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            text-align: left;
+            margin-top: 20px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            font-size: 16px;
+            box-sizing: border-box;
+        }
+
+        textarea {
+            resize: vertical;
+        }
+
+        input[type="submit"] {
+            background-color: #6f4e37;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            font-size: 16px;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #4b2e2e;
+        }
+
+        /* Responsive adjustment for mobile */
+        @media screen and (max-width: 500px) {
+            form {
+                width: 90%;
+                padding: 20px;
+            }
+
+            li {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<h1>Contact Us</h1>
+
+<nav>
+    <a href="index.html">Home</a> |
+    <a href="menu.html">Menu</a> |
+    <a href="about.html">About</a> |
+    <a href="contact.html">Contact</a>
+</nav>
+
+<hr>
+
+<p>Email: coffeehouse@email.com</p>
+<p>Phone: +91 98765 43210</p>
+
+<h2>Send Message</h2>
+
+<form>
+    Name:<br>
+    <input type="text" placeholder="Your Name"><br>
+
+    Email:<br>
+    <input type="email" placeholder="Your Email"><br>
+
+    Message:<br>
+    <textarea rows="4" placeholder="Your Message"></textarea><br>
+
+    <input type="submit" value="Send">
+</form>
+
+</body>
+</html>
